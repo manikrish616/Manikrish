@@ -20,6 +20,10 @@ public class SampleGitTest {
 		wd.get("https://www.google.com/");
 		File f =((TakesScreenshot)wd).getScreenshotAs(OutputType.FILE);
 		FileUtils.copyFile(f,new File("E:\\Vmetry\\SampleGit\\Snapshots\\snap.jpeg"));
+		System.out.println();
+		System.out.println("File changed");
+		System.out.println();
+		System.out.println("File changed");
 	}
 
 }
